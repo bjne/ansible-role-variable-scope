@@ -1,0 +1,5 @@
+---
+- debug: msg="{{ variable }}"
+
+- set_fact:
+    variable: dependency
